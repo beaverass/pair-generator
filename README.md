@@ -2,7 +2,7 @@
 # Docker
 ## 1. Клонируем репозиторий 
 >git clone https://github.com/beaverass/pair-generator
-## 2. Создаём jar и кладем его в корень проекта рядом с Dockerfile
+## 2. Создаём jar
 >mvn clean package
 ## 3. Создаем Docker Image
 >docker build -t pair-generator-app:v1 .
